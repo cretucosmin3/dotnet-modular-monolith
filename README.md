@@ -7,4 +7,4 @@ Microservices are too complex for 90% of projects, but standard Monoliths become
 ### The Solution:
 This template. It’s one solution, one database, and one codebase—but it’s physically partitioned. You can compile "Flavors" of the app to deploy only the features you need for specific server roles.
 
-<img width="1282" height="1186" alt="image" src="https://github.com/user-attachments/assets/831f3da9-766c-4d6a-81cc-a03e3a20f34f" />
+<img width="1253" height="1191" alt="image" src="https://github.com/user-attachments/assets/43c5d49d-aba5-4399-89d5-afcfc3fa1860" />
