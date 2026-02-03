@@ -8,3 +8,22 @@ Microservices are too complex for 90% of projects, but standard Monoliths become
 This template. A modular monolith that can compile all the modules together or partially to deploy only the features you need for specific server roles.
 
 <img width="1526" height="1206" alt="image" src="https://github.com/user-attachments/assets/128db59b-6ac2-4cc8-8e8e-ad0df0f38f7c" />
+
+## How to run the demo
+
+First, navigate to src/Main to run the commands below.
+
+Running all modules
+``` shell
+dotnet run
+```
+
+Running only Auth + Sales
+``` shell
+dotnet run -p:ActiveModules="Auth;Sales"
+```
+
+For powershell you have to escape the quotes
+``` shell
+dotnet run -p:ActiveModules="\"Auth;Sales\""
+```
