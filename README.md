@@ -13,17 +13,17 @@ This template. A modular monolith that can compile all the modules together or p
 
 First, navigate to src/Main to run the commands below.
 
-Running all modules
+Running all modules:
 ``` shell
 dotnet run
 ```
 
-Running only Auth + Sales
+Running only Auth + Sales:
 ``` shell
 dotnet run -p:ActiveModules="Auth;Sales"
 ```
 
-For powershell you have to escape the quotes
+For windows escape the quotes:
 ``` shell
 dotnet run -p:ActiveModules="\"Auth;Sales\""
 ```
